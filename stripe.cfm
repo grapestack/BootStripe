@@ -1,5 +1,3 @@
-<cfparam name="details" default="consulting services">
-
 <cfif NOT isDefined("chargeAmount") or NOT isDefined("clientName") or NOT listFindNoCase("new,guest,none,private,pos", clientName)>
 
 This is not a valid payment link.
