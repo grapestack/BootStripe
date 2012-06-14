@@ -17,6 +17,8 @@ The user never leaves your website to make the payment, so your payment page is 
 
 The credit card details never interact with your server and are only sent to Stripe over a secure connection in exchange for a single-use token, so you don't have to worry about PCI compliance because you are never receiving the actual credit card details. You only receive a token that your processing page sends to Stripe, along with the amount you wish to charge, and Stripe returns the result.
 
+For added security, it is recommended that you still place your payment form on a secure (HTTPS) page using SSL, but it is not absolutely necessary, only recommended.
+
 https://stripe.com/
 
 Stripe is a full-stack payment solution that lets you start accepting payments in minutes without the usual hassles.
