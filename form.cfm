@@ -57,12 +57,17 @@ This is not a valid payment link.
     <div class="container">
 
       <h1>Payment Form</h1>
-
+            
       <p>
       
         <form action="stripe.cfm" method="post" id="stripe-form" style="display: none;" class="form-horizontal">
 
+		<p>
+		<a href="https://stripe.com/help/security" target="_stripe" title="Stripe Security Information"><img src="assets/img/ssl_lock.gif" border="0" align="absmiddle"></a><img src="assets/img/types.png" border="0">
+		</p>
+
         <fieldset>
+
 
           <div class="control-group">
             <label class="control-label" for="name">Amount</label>
